@@ -1,10 +1,11 @@
 ---
 image_name: template_test
+maintainer: "jesse@weisner.ca, github.com/deuterium"
 registries:
   - url: bcit.io
-labels:
-  maintainer: "jesse@weisner.ca, github.com/deuterium"
+build_platform: 'linux/amd64'
+tag_build_id: true
 vars:
   tini_version: '0.19.0'
   de_version: '1.6'
-  dockerize_version: '0.7.0'
+  dockerize_version: '0.11.0'
