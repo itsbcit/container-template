@@ -1,6 +1,6 @@
 ---
 image_name: template_test
-maintainer: "jesse@weisner.ca, github.com/deuterium"
+maintainer: "github.com/jweisner, github.com/deuterium"
 registries:
   - url: bcit.io
 build_platform: 'linux/amd64'
