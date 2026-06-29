@@ -5,7 +5,3 @@ registries:
   - url: bcit.io
 build_platform: 'linux/amd64'
 tag_build_id: true
-vars:
-  tini_version: '0.19.0'
-  ce_version: '1.0.0'
-  dockerize_version: '0.13.0'
