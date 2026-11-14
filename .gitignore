@@ -1,4 +1,5 @@
 .build_id
+.iid-*
 lib
 .agent
 .claude
