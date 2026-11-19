@@ -9,7 +9,7 @@ require 'open-uri'
 # Release commit, stamped by git archive (see .gitattributes). lib/ compares
 # it with its own to warn when the Rakefile and lib/ come from different
 # releases.
-CRUCIBLE_RAKEFILE_COMMIT = 'd51071a1d21d9a921064e50675b2b098f938be29'
+CRUCIBLE_RAKEFILE_COMMIT = 'f2b602c02d0727d881dd536034ce5341753b32be'
 
 Dir.glob('lib/*.rb').each { |l| load l unless File.exist?("local/#{l[4..-1]}") } if Dir.exist?('lib')
 Dir.glob('local/*.rb').each { |l| load l } if Dir.exist?('local')
